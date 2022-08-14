@@ -1,0 +1,525 @@
+body{
+    background:scroll ;
+    background-color: #4bcab0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+
+.searchdiv
+{
+    display: flex;
+    flex-direction: row;
+    margin-left:30vw;
+
+}
+.login{
+    width: 100px;
+    margin-left: 4%;
+}
+#login
+{
+     margin-right: 10vw; 
+} 
+
+h2{
+    text-align: center;
+}
+.cover
+{
+  margin-top: -20px;
+}
+
+
+
+.media
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -10px;
+
+   
+    
+}
+.media div
+{
+    margin-right: 40px;
+    height: auto;
+    width: 30px;
+    font-size: 40px;
+    cursor: pointer;
+
+    
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.text {
+  margin-left: -10vw;
+  
+  width: 50%;
+  height: 40px;
+  top: 50%;
+  margin-top: 10vh;
+  text-align: center;
+
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #9532bf;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #3f9cf9;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  #footer{
+    background-color: #293462;
+  }
+.header{
+    color: #fff;
+}
+.cards{
+    margin-bottom: 10vh;
+}
+.gg-mail{
+    margin-bottom: 5vh;
+}
+
+  .nav {
+    height: 70px;
+    width: 100%;
+    background-color: #06607c;
+    position: relative;
+    z-index: 9999;
+    opacity: 90%;
+  }
+  .card{
+    height: 35;vh
+  }
+  .text{
+    margin-top: 17vh;
+  }
+  .nav-link{
+    font-size: .5em;
+  }
+.nav-img{
+    width: 70px;
+    height: 50px;
+    margin: 0px 5px;
+    margin-right: 5vh;
+}
+
+ 
+  @media screen and (max-width: 675px)
+  {
+
+  }
+  .card-text{
+    font-size: 15px;
+  }
+
+.parent
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2;
+  
+
+
+}
+
+.about{
+  font-size: 20px;
+  width: 40em;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 2vh;
+  color: white;
+  
+}
+img{
+  height: 70vh;
+  width: 100vw;
+  margin-top: 20px;
+  display: block;
+  opacity: 90%;
+}
+
+
+.layer
+{
+  width:20.5em ;
+  height: 32vh;
+  background-color: rgb(26, 23, 23);
+  opacity: 20% ;
+  margin-top: -250px;
+  border: solid black 1px;
+  
+  border-radius: 20px;
+}
+.name
+{
+  color: #16ecc2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Righteous', cursive;
+  font-size: 100px;
+  
+  margin-top: -60px;
+  
+  
+  
+
+}
+.name h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+  color: #fff;
+}
+
+.box
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -55vh;
+z-index:999;
+  
+
+}
+
+/* footer */
+#footer h2
+{
+   text-align : center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 25px;
+   
+}
+.media
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -10px;
+
+   
+    
+}
+.media div
+{
+    margin-right: 40px;
+    height: auto;
+    width: 30px;
+    font-size: 40px;
+    cursor: pointer;
+
+    
+}
+
+
+.cards
+{
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: -13vw;
+  
+  
+}
+.cards div
+{
+  margin-right: 50px;
+}
+.card{
+  width: 25vw;
+  margin: 0 5vw;
+}
+.card-text1,.card-text2,.card-text3
+{
+  font-size: 25px;
+}
+#footer h2
+{
+  font-size: 20px;
+}
+#footer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.media
+{
+  size: 50px;
+}
+@media screen and (max-width: 1030px)
+{
+.card-text
+{
+  font-size: 10px;
+}
+} 
+@media screen and (max-width: 870px)
+{
+  .box{
+    width: 500px;
+    
+  }
+  .name
+  {
+    margin-top: -300px;
+    padding-bottom: 0px;
+  }
+  .cards
+  {
+    margin-top: 250px;
+  }
+
+}
+@media screen and (max-width: 862px)
+{
+.about
+{
+  width: 500px;
+  
+}
+.box
+{
+  margin-left:20px;
+  margin-top: -50px;
+}
+.cards
+{
+  margin-top: 70px;
+}
+} 
+@media screen and (max-width: 871px)
+{
+  .name
+  {
+    margin-top: -60px;
+  }
+}
+@media screen and (max-width: 863px)
+{
+  .name{
+    margin-top: -350px;
+  }
+  .name p
+  {
+    font-size: 50px;
+  }
+  
+}
+@media screen and (max-width: 774px)
+{
+  .text
+  {
+    margin-right: 70px;
+  }
+}
+@media screen and (max-width: 701px)
+{
+  .card
+  {
+    
+    
+    
+    width: 200px;
+    
+  }
+  
+  .cards div
+  {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+  .card-text{
+    font-size: 10px;
+    
+
+  }
+  .card-title{
+font-size: 10px;
+  }
+  .card-body
+  {
+    
+    margin-right: 0px;
+    font-size: 10px;
+  }
+
+}
+@media screen and (max-width: 600px)
+{
+  .about
+  {
+    
+    width: 350px;
+  }
+  .name
+  {
+    margin-top: -360px;
+    margin-bottom:-12px;
+    
+  }
+  .name h1
+  {
+    margin-bottom: -3px;
+    margin-top: -5px;
+  }
+  .about
+  {
+    font-size: 18px
+  }
+ 
+  
+}
+
+@media screen and (max-width: 431px)
+{
+  .about
+  {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    text-align: justify;
+    margin-right: 10px;
+  }
+  img
+  {
+    height: 300px;
+  }
+  .box
+  {
+    margin-top:50px;
+  }
+}
+@media screen and (max-width: 400px)
+{
+  .text
+  {
+    font-size: 30px;
+    margin-top: -45px;
+  }
+}
+@media screen and (max-width: 390px)
+{
+  .about
+  {
+    width: 200px;
+  }
+  img
+  {
+    height: 500px;
+  }
+  .name
+  {
+    margin-top: -500px;
+  }
+}
+
+@media screen and (max-width: 302px)
+{
+  .text
+  {
+    font-size:20px ;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 322px)
+{
+  .name
+  {
+    margin-top: -550px;
+    font-size: 20px;
+  }
+  .name h1
+  {
+    margin-top: 8px;
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  
+}
+@media screen and (max-width: 264px)
+{
+.card
+{
+  margin-right: -50px;
+  margin-top: -20px;
+}
+}
+@media screen and (max-width: 210px)
+{
+  .text
+  {
+    font-size:15px ;
+  }
+
+}

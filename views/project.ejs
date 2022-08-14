@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/project.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+    <title>QwikStart Project</title>
+</head>
+<body>
+<div class="collab">
+    <h1>Qwik-Collab</h1>
+    <p>Collab is one of the most useful feature of QwikStart which allows the aspired students who wants to do a project with the QwikStart member. Here the user can get the contact details of the people who have put in their ideas in the project section.</p>
+</div>
+
+<div class="main">
+  <div class="cards">
+    <div class="row">
+      <div class="col-sm-3">
+        <% data.forEach(function(item){ %>
+        <div class="card">
+            
+          <div class="card-body">
+            <h5 class="card-title"><strong><%=  item.PName %></strong> </h5>
+             <p class="card-text"><%= item.email %> </p>
+             <p><%= item.Description %> </p>
+             <section>
+                
+                <button class="send-btn" href="<%= item.email %> ">
+                  <div class="arrow-container">
+                    <i class="arrow-tail"></i>
+                    <i class="arrow-head-top"></i>
+                    <i class="arrow-head-bottom"></i>
+                  </div>
+                  <span>
+                    SEND
+                  </span>
+                  <span class="sent">
+                    SENT !
+                  </span>
+                </button>  
+              </section>
+            
+            <a href="<%= item.GLink %> " class="btn btn-primary">See Code</a>
+          </div>
+        </div>
+      <% }) %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+  
+</body>
+<!-- bootstrap js -->
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+</html>
